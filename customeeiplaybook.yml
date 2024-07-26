@@ -1,0 +1,4 @@
+- hosts: servere 
+  become: true
+  roles:
+    - name: barclays.mycoll.websetup
