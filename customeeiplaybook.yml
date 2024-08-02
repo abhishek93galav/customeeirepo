@@ -7,6 +7,6 @@
   tasks:
     - ansible.posix.firewalld:
         service: http
-        immeditate: true
+        immediate: true
         permanent: true
         state: enabled
