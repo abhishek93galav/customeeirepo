@@ -2,6 +2,8 @@
   become: true
   roles:
     - name: do374ns.mycoll.websetup
+      tags:
+        - testrole
   tasks:
     - ansible.posix.firewalld:
         service: http
