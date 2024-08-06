@@ -1,2 +1,6 @@
 serverf
 servere
+
+[webservers]
+servera
+serverb
